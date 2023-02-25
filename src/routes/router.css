@@ -1,0 +1,23 @@
+.ul-router {
+  max-width: 46rem;
+  display: flex;
+  margin: 10px;
+}
+
+.ul-router li {
+  background-color: transparent;
+  padding: 0;
+  border-radius: 0;
+  text-align: center;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+@media (max-width: 510px) {
+  .ul-router {
+    height: 10px;
+  }
+}
