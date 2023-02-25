@@ -8,7 +8,7 @@ export default function Root() {
       <nav>
         <ul className="ul-router">
           <li>
-            <Link className="link" to={`home`}>
+            <Link className="link" to={`/`}>
               Finder
             </Link>
           </li>
